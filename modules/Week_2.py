@@ -16,10 +16,7 @@ def write_list_to_file(output_file, lst):
             file_object.write('%s\n' % element)
 
             
-def write_to_file(output_file, *strings)
-    with open(output_file, 'w') as file_object:
-        for string in strings:
-            file_object.write('%s\n' % string)
+
 
             
 def read_csv(input_file):
